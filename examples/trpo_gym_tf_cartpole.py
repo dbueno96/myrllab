@@ -5,7 +5,7 @@ from rllab.misc.instrument import stub, run_experiment_lite
 print('Importing Sandbox')
 from sandbox.rocky.tf.envs.base import TfEnv
 print('1')
-from sandbox.nrocky.tf.policies.categorical_mlp_policy import CategoricalMLPPolicy
+from sandbox.rocky.tf.policies.categorical_mlp_policy import CategoricalMLPPolicy
 print ('2')
 from sandbox.rocky.tf.algos.trpo import TRPO
 print('3')
